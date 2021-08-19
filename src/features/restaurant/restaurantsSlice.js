@@ -1,5 +1,6 @@
 // Action Creators
 export function addRestaurant(restaurant) {
+ console.log(restaurant);
   return {
     type: "restaurants/add",
     payload: restaurant,
